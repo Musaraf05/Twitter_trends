@@ -1,23 +1,19 @@
-# Twitter Trending Topics Scraper 🌐📊  
+# WEB SCRAPING WITH SELENIUM AND PROXYMESH 🌐📊  
 
 This project automates the extraction of the top 5 trending topics from Twitter's homepage. It utilizes **Selenium**, **ProxyMesh**, and **MongoDB** for automated scraping, anonymity through proxies, and efficient data storage. Additionally, it features a simple **frontend interface** to display and interact with the data.
 
----
 
 ## Project Title  
-**Twitter Trending Topics Scraper**
+**Web scraping with Selenium and ProxyMesh**
 
 ## Project Overview  
 The Twitter Trending Topics Scraper fetches real-time trends from Twitter, stores them securely in a MongoDB database, and provides a user-friendly frontend to display the scraped data. This project demonstrates automation, data storage, and proxy management.
 
----
 
 ## Directory Structure 📂  
 
 <img width="392" alt="Screenshot 2024-12-31 at 10 35 08 PM" src="https://github.com/user-attachments/assets/be38e6a9-f615-4540-a80e-00f10b28fd9b" />
 
-
----
 
 ## Features 🚀  
 
@@ -40,7 +36,7 @@ The Twitter Trending Topics Scraper fetches real-time trends from Twitter, store
 ### 5. JSON Representation  
 - Provides a JSON format of the latest scrape for integration with other applications or systems.  
 
----
+
 
 ## Methods Used 🛠️  
 
@@ -75,21 +71,36 @@ The script uses Selenium to:
 
 ### Usage 🖥️
 
-1.**Start the application**:
+1.**Install the following dependencies**:
+```
+npm install express mongoose selenium-webdriver uuid ejs 
+  ```
+**Here's a quick overview of the required packages**:
+- express: A web framework for Node.js, used for handling HTTP requests and serving the web application.
+- mongoose: A MongoDB library for interacting with MongoDB databases.
+- selenium-webdriver: A library to automate the web browser for scraping purposes.
+- uuid: A library to generate unique identifiers.
+- ejs: A templating engine used to render HTML views.
+- 
+2.**Set Up MongoDB**:
+
+- Make sure MongoDB is running locally and start the MongoDB
+
+3.**Start the application**:
 
 ```
 node app.js  
   ```
   
-2.**Open the frontend**:
+4.**Open the frontend**:
 
 -Navigate to http://localhost:3000 in your browser.
 
-3.**Scrape Twitter trends**:
+5.**Scrape Twitter trends**:
 
 -Click the "Fetch Trends" button on the homepage to initiate scraping.
 
-4.**View the results**:
+6.**View the results**:
 
 -Trends, timestamp, and proxy IP will be displayed on the results page.
 
@@ -124,19 +135,21 @@ Copy code
 
 Twitter Trending Topics Scraper is a robust project for automating trend extraction from Twitter while ensuring anonymity and secure data storage. Its modular design makes it extensible for advanced features, such as API integration or analytics dashboards.
 
-Explore its functionalities and contribute to its development. Your feedback is highly appreciated!
-
+This project showcases expertise in:
+- **Web automation** with Selenium.
+- **Proxy management** for anonymity and rate-limit evasion.
+- **Database integration** using MongoDB.
+- **Frontend development** with EJS and Express.js.
+  
 ## Contact
 For any questions or suggestions, feel free to reach out:
 
-LinkedIn: Your LinkedIn Profile
+LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/mohamed-musaraf-180877244/)
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-Selenium for browser automation
-MongoDB for data storage
-ProxyMesh for proxy management
-Express.js for building the backend
-All contributors and supporters!
+- Selenium for browser automation
+- MongoDB for data storage
+- ProxyMesh for proxy management
+- Express.js for building the backend
+- Stir Tech Internship for inspiring this project
