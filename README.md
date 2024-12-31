@@ -57,7 +57,6 @@ The script uses Selenium to:
   - **Timestamp**  
   - **Proxy IP Address**  
 
----
 
 ## Installation 📥  
 
@@ -81,7 +80,7 @@ npm install express mongoose selenium-webdriver uuid ejs
 - selenium-webdriver: A library to automate the web browser for scraping purposes.
 - uuid: A library to generate unique identifiers.
 - ejs: A templating engine used to render HTML views.
-- 
+  
 2.**Set Up MongoDB**:
 
 - Make sure MongoDB is running locally and start the MongoDB
@@ -94,15 +93,15 @@ node app.js
   
 4.**Open the frontend**:
 
--Navigate to http://localhost:3000 in your browser.
+- Navigate to http://localhost:3000 in your browser.
 
 5.**Scrape Twitter trends**:
 
--Click the "Fetch Trends" button on the homepage to initiate scraping.
+- Click the "Fetch Trends" button on the homepage to initiate scraping.
 
 6.**View the results**:
 
--Trends, timestamp, and proxy IP will be displayed on the results page.
+- Trends, timestamp, and proxy IP will be displayed on the results page.
 
 ## Example Output
 ```
