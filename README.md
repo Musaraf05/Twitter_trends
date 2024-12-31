@@ -124,10 +124,11 @@ Copy code
 
 ## Demo Images
 **Homepage with 'Fetch Trends' button**:
-![WhatsApp Image 2024-12-31 at 21 59 15](https://github.com/user-attachments/assets/f8afb4cf-fc98-49de-9dcd-d58a8d575012)
+![WhatsApp Image 2024-12-31 at 21 59 16](https://github.com/user-attachments/assets/88206ed5-c88f-497d-98f6-9fa644dd6aa8)
+
 
 **Results Page showing extracted trends**:
-![WhatsApp Image 2024-12-31 at 21 59 16](https://github.com/user-attachments/assets/88206ed5-c88f-497d-98f6-9fa644dd6aa8)
+![WhatsApp Image 2024-12-31 at 21 59 15](https://github.com/user-attachments/assets/f8afb4cf-fc98-49de-9dcd-d58a8d575012)
 
 
 ## Conclusion
